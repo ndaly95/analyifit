@@ -1,5 +1,4 @@
 from flask import Flask
-import pandas as pd
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import os
 
