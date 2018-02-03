@@ -4,6 +4,8 @@ import os
 
 app = Flask(__name__)
 
+app.config['SECRET_KEY'] = "Your_secret_string"
+
 @app.route('/')
 def home():
     if not session.get('logged_in'):
